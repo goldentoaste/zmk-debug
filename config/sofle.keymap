@@ -25,6 +25,11 @@
             if-layers = <LOWER RAISE>;
             then-layer = <ADJUST>;
         };
+
+        stuff {
+            if-layers = <1 4>;
+            then-layer = <3>;
+        };
     };
 
     combos { compatible = "zmk,combos"; };
